@@ -36,3 +36,38 @@ li:hover {
     font-family: Arial;
     font-size: 11pt;
 }
+
+.header {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #b61f22;
+    margin-bottom: 10px;
+}
+
+.vorarlberg {
+    font-size: 18pt;
+    color: white;
+    font-family: Arial;
+    position: relative;
+    left: 50px;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #740809;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.flex2 li {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+    font-family: Arial;
+}
