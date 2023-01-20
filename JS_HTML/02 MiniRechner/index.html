@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <h1 id="heading">Super Page</h1>
     <div id="content">
-        A<input type="text" id="number1" value="17"/>
+        A<input type="text" id="number1"/>
         B<input type="text" id="number2"/>
-        <button onclick="buttonClicked()">Berechnen</button>
+    </div>
+    <div class="buttons">
+        <button onclick="addNumbers()">Addieren</button>
+        <button onclick="subtractNumbers()">Subtrachieren</button>
+        <button onclick="multiplyNumbers()">Multiplizieren</button>
+        <button onclick="divideNumbers()">Dividieren</button>
+    </div>
+    <div class="output" id="output">
+        
     </div>
 </body>
 
