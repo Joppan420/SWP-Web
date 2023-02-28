@@ -1,0 +1,22 @@
+body {
+    background-color: #F5F5DC;
+    
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
+
+#output {
+    text-align: center;
+}
