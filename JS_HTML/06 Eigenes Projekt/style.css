@@ -9,14 +9,61 @@ h1 {
 }
 
 .buttons {
-    margin: 20px;
+    margin: 10px;
     text-align: center;
+    padding: 5px 5px;
+    
 }
 
 #content {
     text-align: center;
+    font-size: 30px;
 }
 
 #output {
     text-align: center;
+}
+
+#dollar:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#dollar {
+    font-size: 20px;
+    border: 20px;
+    transition-duration: 0.4s;
+}
+
+#yen:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#yen {
+    font-size: 20px;
+    border: 20px;
+    transition-duration: 0.4s;
+}
+
+#dinar:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#dinar {
+    font-size: 20px;
+    border: 20px;
+    transition-duration: 0.4s;
+}
+
+#lira:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#lira {
+    font-size: 20px;
+    border: 20px;
+    transition-duration: 0.4s;
 }
