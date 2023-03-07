@@ -1,3 +1,7 @@
+*{
+    font-family: monospace;
+}
+
 body {
     background-color: #F5F5DC;
     
@@ -20,6 +24,10 @@ h1 {
     font-size: 30px;
 }
 
+#number1 {
+    padding: 6px 10px;
+}
+
 #output {
     text-align: center;
 }
@@ -33,6 +41,8 @@ h1 {
     font-size: 20px;
     border: 20px;
     transition-duration: 0.4s;
+    border: 2px solid #3b253a;
+    border-radius: 10px;
 }
 
 #yen:hover {
@@ -44,6 +54,8 @@ h1 {
     font-size: 20px;
     border: 20px;
     transition-duration: 0.4s;
+    border: 2px solid #3b253a;
+    border-radius: 10px;
 }
 
 #dinar:hover {
@@ -55,6 +67,8 @@ h1 {
     font-size: 20px;
     border: 20px;
     transition-duration: 0.4s;
+    border: 2px solid #3b253a;
+    border-radius: 10px;
 }
 
 #lira:hover {
@@ -66,4 +80,6 @@ h1 {
     font-size: 20px;
     border: 20px;
     transition-duration: 0.4s;
+    border: 2px solid #3b253a;
+    border-radius: 10px;
 }
