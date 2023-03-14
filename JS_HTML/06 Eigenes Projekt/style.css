@@ -32,51 +32,12 @@ h1 {
     text-align: center;
 }
 
-#dollar:hover {
+.button:hover {
     background-color: darkgray;
     color: white;
 }
 
-#dollar {
-    font-size: 20px;
-    border: 20px;
-    transition-duration: 0.4s;
-    border: 2px solid #3b253a;
-    border-radius: 10px;
-}
-
-#yen:hover {
-    background-color: darkgray;
-    color: white;
-}
-
-#yen {
-    font-size: 20px;
-    border: 20px;
-    transition-duration: 0.4s;
-    border: 2px solid #3b253a;
-    border-radius: 10px;
-}
-
-#dinar:hover {
-    background-color: darkgray;
-    color: white;
-}
-
-#dinar {
-    font-size: 20px;
-    border: 20px;
-    transition-duration: 0.4s;
-    border: 2px solid #3b253a;
-    border-radius: 10px;
-}
-
-#lira:hover {
-    background-color: darkgray;
-    color: white;
-}
-
-#lira {
+.button {
     font-size: 20px;
     border: 20px;
     transition-duration: 0.4s;
