@@ -1,15 +1,33 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
 #background {
-    opacity: 0.8;
-    z-index: -1; 
-    width: 100%; 
     background-image: url("Images/Football.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#outputbackground {
+    display: flex;
+    background: rgba(225, 219, 219, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(225, 219, 219, 0.3);
+    width: 50%;
+    justify-content: center;
 }
 
 #output {
     color: white;
     text-align: center;
     font-size: 18px;
+    
 }
