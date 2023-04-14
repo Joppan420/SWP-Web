@@ -3,14 +3,16 @@ h1{
     color: white;
 }
 
-#background {
+body {
     background-image: url("Images/Football.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
+}
+
+#background {
+    
+    margin: 0 auto;
 }
 
 #outputbackground {
@@ -23,6 +25,7 @@ h1{
     border: 1px solid rgba(225, 219, 219, 0.3);
     width: 50%;
     justify-content: center;
+    margin: 0 auto;
 }
 
 #output {
@@ -31,3 +34,18 @@ h1{
     font-size: 18px;
     
 }
+
+.teamIMG {
+    height: 64px;
+    width: 64px;
+    margin: 10px;
+  }
+
+.table {
+    display: flex;
+    margin: 15px;
+    overflow: hidden;
+    align-content: center;
+    
+  }
+
