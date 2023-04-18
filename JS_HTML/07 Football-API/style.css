@@ -17,8 +17,7 @@ body {
 
 #outputbackground {
     display: flex;
-    background: rgba(225, 219, 219, 0.2);
-    border-radius: 16px;
+    background: rgba(234, 222, 222, 0.564);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.7px);
     -webkit-backdrop-filter: blur(4.7px);
@@ -29,23 +28,32 @@ body {
 }
 
 #output {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 18px;
-    
+    width: 100%;
 }
 
 .teamIMG {
-    height: 64px;
-    width: 64px;
-    margin: 10px;
+    display:flex;
+    align-items: center;
+  }
+
+.teamIMG img {
+    height: 35px;
+    width: 35px;
   }
 
 .table {
     display: flex;
-    margin: 15px;
-    overflow: hidden;
-    align-content: center;
-    
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    width:93.5%;
+    padding:15px;
   }
+
+
+
 

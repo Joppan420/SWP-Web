@@ -12,7 +12,10 @@ const fillTable = (data) =>{
     let html = "";
 
     data.forEach(element => {
-        html += `<div class"table"><img class="teamIMG" src="${element.teamIconUrl}" alt="Team Icon"> <p class="points">${element.teamName} : ${element.points}</p></div>`;
+        html += `<div class="table">
+        <div class="teamIMG"><img src="${element.teamIconUrl}" alt="Team Icon"></div>
+        <div class="name"> ${element.teamName}</div>
+        <p class="points"> ${element.points}</p></div>`;
     });
     document.getElementById("output").innerHTML = html;
 
