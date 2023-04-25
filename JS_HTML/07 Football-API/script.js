@@ -13,8 +13,9 @@ const fillTable = (data) =>{
 
     data.forEach(element => {
         html += `<div class="table">
-        <div class="teamIMG"><img src="${element.teamIconUrl}" alt="Team Icon"></div>
+        <div class="teamIMG"><img src="${element.teamIconUrl}" alt="Team Icon">
         <div class="name"> ${element.teamName}</div>
+        </div>
         <p class="points"> ${element.points}</p></div>`;
     });
     document.getElementById("output").innerHTML = html;
