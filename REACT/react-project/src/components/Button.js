@@ -10,10 +10,16 @@ export default function Button(props) {
             onClick={()=>{
 
                 setIsOn(!isOn);
+                if(!isOn){
+                    alert("Button is on")
+                }
+                else{
+                    alert("Button is off")
+                }
             }}
         >
         
-            {props.name} is {props.age} years old and is {isOn?"On":"Off"}
+            {props.text}
         </div>
     )
 }
